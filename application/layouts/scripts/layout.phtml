@@ -1,0 +1,25 @@
+<?php echo $this->doctype() ?>
+<html>
+<head>
+  <?php echo $this->headMeta() ?>
+  <?php echo $this->headTitle() ?>
+  <?php echo $this->headLink() ?>
+  <?php echo $this->headScript() ?>
+</head>
+<body>
+<div id="header" class="style-header">
+    <div id="header-logo" class="style-header-logo">
+        <b>ZF Quickstart Application</b>
+    </div>
+    <div id="header-navigation" class="style-header-navigation">
+        <a href="<?php echo $this->url(
+            array('controller'=>'guestbook'),
+            'default',
+            true) ?>">Guestbook</a>
+    </div>
+</div>
+ 
+<?php echo $this->layout()->content ?>
+
+</body>
+</html>
