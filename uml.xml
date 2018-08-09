@@ -1,0 +1,10 @@
+<application>
+  <component name="UmlConfiguration">
+    <option name="fitContentAfterLayout" value="true" />
+    <option name="categories">
+      <map>
+        <entry id="PHP" categories="Fields;Constants;Constructors;Methods" />
+      </map>
+    </option>
+  </component>
+</application>
